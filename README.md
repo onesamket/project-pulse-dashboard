@@ -1,73 +1,73 @@
-# Welcome to your Lovable project
+# Project Pulse Dashboard
 
-## Project info
+A React + TypeScript dashboard application for managing projects and team members.
 
-**URL**: https://lovable.dev/projects/e8a736ca-2a2e-4afc-938e-e5555e9beeae
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/e8a736ca-2a2e-4afc-938e-e5555e9beeae) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
+## 📋 Project Overview
 
 This project is built with:
+- **Vite** - Build tool
+- **TypeScript** - Type safety
+- **React** - UI framework
+- **shadcn/ui** - UI components
+- **Tailwind CSS** - Styling
+- **React Router** - Routing
+- **TanStack Query** - Data fetching
+- **Express.js** - Backend API
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🚀 Getting Started
 
-## How can I deploy this project?
+### Prerequisites
 
-Simply open [Lovable](https://lovable.dev/projects/e8a736ca-2a2e-4afc-938e-e5555e9beeae) and click on Share -> Publish.
+- Node.js (v18 or higher)
+- npm or yarn
+- Git
 
-## Can I connect a custom domain to my Lovable project?
+### Installation
 
-Yes, you can!
+1. Clone the repository:
+   ```bash
+   git clone <YOUR_GIT_URL>
+   cd project-pulse-dashboard
+   ```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## 📚 Documentation
+
+- **Frontend Assessment**: See [test.md](./test.md) for detailed assessment instructions, requirements, and setup guide
+- **Backend API**: See [server/README.md](./server/README.md) for API documentation
+
+## 🏗️ Project Structure
+
+```
+project-pulse-dashboard/
+├── src/              # Frontend React application
+├── server/           # Backend Express API
+├── test.md          # Assessment instructions
+└── README.md        # This file
+```
+
+## 📝 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## 🔧 Development
+
+To work on this project locally:
+
+1. Start the backend server (see [server/README.md](./server/README.md))
+2. Start the frontend development server
+3. Open your browser to the URL shown in the terminal
+
+For assessment instructions and requirements, please refer to [test.md](./test.md).

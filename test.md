@@ -226,19 +226,7 @@ Implement the following features. You don't need to complete everything - we'll 
 - Use React Query's `isError` and `error` states
 - Consider using toast notifications for mutation errors
 
-### 8. Responsiveness (Required)
-
-- [ ] Ensure all new features work on mobile, tablet, and desktop
-- [ ] Test filter controls, modals, and search bars on different screen sizes
-- [ ] Maintain existing responsive design patterns
-
-**UI Suggestions:**
-- Use Tailwind's responsive breakpoints (`sm:`, `md:`, `lg:`)
-- Stack filters vertically on mobile
-- Make modals full-screen on mobile if needed
-- Test on actual devices or browser dev tools
-
-### 9. Bonus Features (Optional)
+### 8. Bonus Features (Optional)
 
 If you have time, consider implementing:
 - [ ] Create/Edit/Delete project functionality
@@ -278,7 +266,7 @@ If you have time, consider implementing:
 
 ## ⏱️ Time Estimate
 
-This assessment is designed to take **4-6 hours**, but you're not expected to complete everything. Focus on:
+This assessment is designed to take **2 hours**. Focus on:
 1. Quality over quantity
 2. Getting the core features working well
 3. Clean, maintainable code
