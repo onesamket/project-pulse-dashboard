@@ -29,7 +29,7 @@ import {
 import { DialogTrigger } from "@radix-ui/react-dialog"
 import { Dialog, DialogContent } from "../ui/dialog"
 import { Team } from "@/types/team"
-import { apiClient } from "@/lib/api-client"
+import { apiClient } from "@/lib/api"
 import { queryClient } from "@/providers/query-provider"
 import { QUERY_KEYS } from "@/query-qeys"
 interface CreateProjectModalProps {

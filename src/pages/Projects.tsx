@@ -2,7 +2,7 @@ import { CreateProjectModal } from "@/components/forms/create-project-modal";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { apiClient } from "@/lib/api-client";
+import { apiClient } from "@/lib/api";
 import { Project } from "@/types/project";
 import { Team } from "@/types/team";
 import { useMutation, useQuery } from "@tanstack/react-query";

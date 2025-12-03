@@ -26,7 +26,7 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@/components/ui/select"
-import { apiClient } from "@/lib/api-client"
+import { apiClient } from "@/lib/api"
 import { queryClient } from "@/providers/query-provider"
 import { QUERY_KEYS } from "@/query-qeys"
 import { Project } from "@/types/project"

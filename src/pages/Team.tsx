@@ -3,7 +3,7 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Mail, MoreVertical } from "lucide-react";
-import { apiClient } from "@/lib/api-client";
+import { apiClient } from "@/lib/api";
 import { useQuery } from "@tanstack/react-query";
 import { Team } from "@/types/team";
 

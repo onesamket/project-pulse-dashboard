@@ -1,7 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { apiClient } from "@/lib/api-client";
+import { apiClient } from "@/lib/api";
 import { QUERY_KEYS } from "@/query-qeys";
 import { Project } from "@/types/project";
 import { useMutation, useQuery } from "@tanstack/react-query";
