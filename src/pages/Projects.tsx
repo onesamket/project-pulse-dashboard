@@ -20,6 +20,7 @@ import { queryClient } from "@/providers/query-provider";
 import { toast } from "sonner";
 import { QUERY_KEYS } from "@/query-qeys";
 import { UpdateProjectModal } from "@/components/forms/update-project-modal";
+import { FilterProjectDropdown } from "@/components/shared/filter-project";
 const statusColors = {
   "In Progress": "bg-primary/10 text-primary border-primary/20",
   "Planning": "bg-accent/10 text-accent border-accent/20",
@@ -35,7 +36,7 @@ const priorityColors = {
 export default function Projects() {
   const [isEditModalOpen, setIsEditModalOpen] = useState(false)
   const [editableProject, setEditableProject] = useState<Project | null>(null)
-
+  const [filters, setFilters] = useState({ priority: 'Medium', status: 'Active' });
 
   const { data: projects, isLoading: loadingProject, error: loadingProjectError } = useQuery<Project[]>({
     queryKey: ['PROJECTS'],
@@ -85,6 +86,7 @@ export default function Projects() {
             Manage and track all your team projects
           </p>
         </div>
+        <FilterProjectDropdown />
         <CreateProjectModal teams={teams} />
       </div>
 
